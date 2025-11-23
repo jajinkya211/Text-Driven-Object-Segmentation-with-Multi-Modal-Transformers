@@ -1,0 +1,36 @@
+# Core dependencies
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.24.0
+pillow>=9.5.0
+
+# Transformers and NLP
+transformers>=4.30.0
+tokenizers>=0.13.0
+
+# Data and visualization
+matplotlib>=3.7.0
+scipy>=1.10.0
+tqdm>=4.65.0
+
+# Training utilities
+tensorboard>=2.13.0
+
+# Optional: Weights & Biases for experiment tracking
+# wandb>=0.15.0
+
+# Development tools
+pytest>=7.3.0
+black>=23.3.0
+flake8>=6.0.0
+
+# Dataset dependencies
+# Note: refer package must be installed separately
+# git+https://github.com/lichengunc/refer.git
+
+# Optional: Additional backends
+opencv-python>=4.7.0
+scikit-image>=0.20.0
+
+# For COCO API (required by refer)
+pycocotools>=2.0.6
